@@ -60,10 +60,9 @@
                 }, errorHandler);
             }
             
-            $(function() {
-                document.getElementById('hello').innerHTML = 'start the tests';
-                window.requestFileSystem(window.PERSISTENT, 5*1024*1024, onInitFs,errorHandler);
-            });
+            document.getElementById('hello').innerHTML = 'start the tests';
+            window.requestFileSystem(window.PERSISTENT, 5*1024*1024, onInitFs,errorHandler);
+        
 	
         </script>
 
